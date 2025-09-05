@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.cloudandsdk.replaced_project_name"
+    namespace = "{{cookiecutter.package_name}}"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.cloudandsdk.replaced_project_name"
+        applicationId = "{{cookiecutter.package_name}}"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
